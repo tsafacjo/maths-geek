@@ -1,0 +1,17 @@
+{
+  "about.qmd": {
+    "about.html": "1459648b"
+  },
+  "index.qmd": {
+    "index.html": "263c560b"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "e066e812"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "81aeccb3"
+  },
+  "posts/supermarket-stats/index/index.qmd": {
+    "index.html": "555371ce"
+  }
+}

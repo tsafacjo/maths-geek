@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jordane-tsafack-9805b011a/
+    - icon: github
+      text: Github
+      href: https://github.com/tsafacjo
+
+---
+
+A propos de ce blog
+
+Ce blog est pensé pour partagé mes reflexions sur comment les Maths peuvent qui nos choix dans la vie quotidienne.

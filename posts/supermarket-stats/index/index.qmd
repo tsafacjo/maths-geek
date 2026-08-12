@@ -1,0 +1,22 @@
+---
+title: "How Supermarkets Use Statistics to Manipulate You"
+date: 2026-04-15
+categories: [retail, probability]
+description: "The math behind product placement and pricing tricks"
+---
+
+Supermarkets aren't arranged randomly...
+
+```{python}
+import plotly.express as px
+import pandas as pd
+
+data = pd.DataFrame({
+    "Zone": ["Entry", "Middle", "Checkout"],
+    "Impulse Buy Rate (%)": [12, 34, 58]
+})
+
+fig = px.bar(data, x="Zone", y="Impulse Buy Rate (%)",
+             title="Impulse purchase rate by store zone")
+fig.show()
+```
