@@ -7,11 +7,18 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/proba_femme_enfants/index/index.html",
+    "href": "posts/proba_femme_enfants/index/index.html",
+    "title": "Probalité d’avoir un garçon",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Vous aimez les probabilités ?\nCet article est fait pour vous.\nVoici la version initiale révisée, intégrant la réaction intuitive du raisonnement humain face à ce problème :\n\nLa réponse mathématique est 2/3 (environ 66,7 %), mais le raisonnement humain a naturellement tendance à croire que c’est 1/2 (50 %).\nCe problème (connu sous le nom du problème des deux enfants) est un piège classique de probabilités conditionnelles où l’intuition nous trompe.\n\nPourquoi l’intuition suggère 1/2 (50 %) ?\nNotre cerveau a tendance à traiter l’existence de la fille comme un événement isolé et à se dire : “Chaque enfant a 1 chance sur 2 d’être un garçon ou une fille, donc le deuxième enfant a 50 % de chances d’être un garçon.”\nDe plus, l’esprit humain interprète souvent “elle a une fille” comme si un enfant précis était déjà identifié (par exemple l’aînée). Or, l’énoncé nous dit seulement qu’au moins un des deux enfants est une fille, sans préciser lequel.\n\n\n\nLe calcul rigoureux : pourquoi c’est 2/3 ?\n\n1. L’univers des possibles (au départ)\nSi l’on liste les 4 combinaisons équiprobables pour deux enfants (Aîné, Cadet) :\n\n(Garçon, Garçon)\n(Garçon, Fille)\n(Fille, Garçon)\n(Fille, Fille)\n\n\n\n2. Prise en compte de l’information connue\nSavoir que la mère a au moins une fille élimine la possibilité qu’elle ait deux garçons :\n\n(Garçon, Garçon) (Impossible)\n(Garçon, Fille)\n(Fille, Garçon)\n(Fille, Fille)\n\nIl ne reste plus que 3 cas possibles (et non 2 comme le suggère l’intuition).\n\n\n3. Calcul de la probabilité\nParmi ces 3 cas restants, dans combien de configurations trouve-t-on un garçon ?\n\n(Garçon, Fille) \\(\\rightarrow\\) Un garçon et une fille\n(Fille, Garçon) \\(\\rightarrow\\) Une fille et un garçon\n(Fille, Fille) \\(\\rightarrow\\) Deux filles\n\nIl y a 2 cas favorables sur 3 cas possibles.\n\\[\\text{Probabilité} = \\frac{2}{3} \\approx 66{,}7\\%\\]\n\n\nEn résumé : L’intuition (1/2) ne serait exacte que si l’énoncé précisait la place de la fille (ex: “L’aînée est une fille”). Sans cette précision d’ordre, la restriction de l’ensemble des possibles fait grimper la probabilité à 2/3."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Maths and Geek",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 12, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 9, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nProbalité d’avoir un garçon\n\n\n\nretail\n\nprobability\n\n\n\nProbalité d’avoir un garçon\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHow Supermarkets Use Statistics to Manipulate You\n\n\n\nretail\n\nprobability\n\n\n\nThe math behind product placement and pricing tricks\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,11 +28,11 @@
     "text": "A propos de ce blog\nCe blog est pensé pour partagé mes reflexions sur comment les Maths peuvent qui nos choix dans la vie quotidienne."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Maths and Geek",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 12, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 9, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nHow Supermarkets Use Statistics to Manipulate You\n\n\n\nretail\n\nprobability\n\n\n\nThe math behind product placement and pricing tricks\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\nNo matching items"
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "posts/supermarket-stats/index/index.html",
